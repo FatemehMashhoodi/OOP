@@ -4,11 +4,7 @@ class University:
         self.name=name
         self.student={}
         self.employee={}
-    """def find_index(self, code):
-        for i, st in enumerate(self.student):
-            if st.student_code == code:
-                return i
-        return -1"""
+   
     def add_student(self,obj):
         if obj.student_code not in self.student:
             self.student[obj.student_code]=obj
@@ -63,12 +59,12 @@ class University:
         else:
             print('not found')
     def display_student(self):
-        for i in u.student.values():
-            print(i) 
+        for j in u.student.values():
+            print(j) 
         
     def display_employee(self):
-        for i in u.employee.values():
-            print(i)
+        for k in u.employee.values():
+            print(k)
        
         
 
