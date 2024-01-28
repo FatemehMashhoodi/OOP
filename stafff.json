@@ -1,0 +1,11 @@
+{
+    "first_name": "a",
+    "last_name": "b",
+    "id_": "a1b13dc6-9edd-4440-b614-f9907e451f8f",
+    "contact_info": "09383259698",
+    "height": 189,
+    "weight": 70,
+    "age": 30 ,
+     "role": "rceptionist or houskeeping or maintenance",
+      "salaries": {"s_re": 600000, "s_hou": 700000, "s_mai": 800000}
+}
